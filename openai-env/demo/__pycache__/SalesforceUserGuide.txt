@@ -1,0 +1,584 @@
+﻿Salesforce 
+Training Guide
+  
+
+
+
+
+
+
+
+
+
+Last updated: 
+Nov 01, 2021
+
+
+________________
+
+
+Version history
+Version
+	Date
+	Topics
+	Modified by
+	v.1.0
+	21 October 2021
+	Basics District360 modules
+	CUBE84
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	 
+
+
+
+
+
+
+
+
+
+
+Table of Contents
+
+
+Table of Contents        4
+Downtown Dallas Salesforce Guideposts        6
+Before You Start: Data Entry Rules        6
+Login to Salesforce        8
+Login Screen        8
+Forgot Login Credential/Password?        9
+Building        10
+Create/Edit a Building Record        10
+Affiliate Building Owners & Managers to Building        12
+Add Building Assessments to Building        13
+Add Tenants to Building        14
+ Business        15
+Create/Edit a  Business Record        15
+Contact        17
+Create/Edit a Contact Record        17
+Vacancies        19
+Create/Edit a Vacancy        19
+Edit an existing Vacancy        20
+Major Initiative        20
+Create/Edit a Major Initiative        20
+Add Major Initiative Roles to Major Initiatives        22
+Understanding Related Lists        37
+Reports & Dashboards        38
+Creating Reports        38
+Exporting Reports        40
+Subscribe to Reports        41
+Creating Dashboard        43
+      How to create “List Views”        47
+User Management        49
+Onboarding New Users:        49
+Off-Boarding Users:        49
+Lightning for Outlook        50
+Enable and Set Up Lightning for Outlook        50
+1. Set up Lightning for Outlook from Salesforce        50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Salesforce Guideposts
+
+
+1. Salesforce is a Team Sport:  Login and participate – don’t drop the ball!
+
+
+2. Just do it:  Always keep an eye out and make corrections and updates to contacts,  Business, Building and affiliations.
+
+
+3. Greatest Hits:  Update Salesforce records with important notes + attachments
+
+
+Before You Start: Data Entry Rules 
+
+
+1. Do not abbreviate street names in addresses. Spell out Street, Avenue, Boulevard, Parkway, etc.
+
+
+2. Do not use punctuation in addresses. Do not put a comma before the quadrant (NW, NE, SW, SE) in street addresses. For example: 
+* 1333 H Street NE
+* 1350 Pennsylvania Avenue NW
+* 55 M Street SE
+* 1101 6th Street SW
+
+
+3. Always use the Global Search bar to search for records before you create a new record. It avoids creating duplicate entries.
+
+
+4. The correct address is filled in the Building address fields for the Building on map component to work as intended. (Recommended to allow location access in the browser)
+
+
+5. All required fields should be filled before saving any records
+
+
+
+
+Login to Salesforce
+Login Screen
+
+
+* Use the below URL to login into the application
+URL:https://login.salesforce.com/
+* Enter the user credentials provided by your System Administrator and click on the Login button
+  
+
+* Users logging in for the first time will be taken to the traditional home page as shown in the screenshot below. 
+
+
+Forgot Login Credential/Password?
+
+
+Forgot your password or simply want to change it? request a Salesforce System Admin to reset your password. An email will then be generated for you to reset your password.  
+
+
+If you are sharing a Salesforce user account with multiple users, use a web browser in incognito mode.  
+
+
+Getting Started 
+Objects in Salesforce are the major categories of data. The different Salesforce Objects appear on a ribbon across the top of your screen.
+
+
+  
+
+
+
+
+
+Building
+Create/Edit a Building Record 
+   1. Create a New Building  
+   1. Navigate to the Properties Tab and click on either New or New Properties button. 
+  
+
+   2. Enter information into all necessary fields and Click on Save 
+  
+
+
+
+   3. New Building is created
+  
+
+
+
+   2. Edit an existing Building   
+1.  To change or add information to a record, click on the Edit button in the upper right hand corner of your screen. Be sure to Save any changes that you make.
+   
+
+
+Affiliate Building Owners & Managers to Building
+1. After a Building is created, scroll down to Building Ownership and Management related list and click New to add respective Building owners/managers for the Building.
+  
+
+
+
+2. Building owners/managers can be a  Business or individual, use the owner  Business or contact lookup field and make sure we assign a role before we save the record.
+
+
+  
+
+
+
+Add Building Assessments to Building
+1. After a Building is created, scroll down to Assessments related list and click New to add assessment information for the Building.
+  
+
+
+
+
+
+ 
+2. Enter information into all necessary fields and Click on Save
+  
+
+Add Tenants to Building
+1. After a Building is created, scroll down to Tenants related list and click New to add tenants information for the Building.
+  
+
+
+
+2. Enter information into all necessary fields and Click on Save
+  
+
+ Business
+Create/Edit a  Business Record 
+* Conduct a thorough search to prevent creating a duplicate account/ Business by entering the  Business name in the search field at the top of your screen. If you are unsure of the spelling, enter the first 2-3 letters of the name in the search field at the top of your screen to see all of the companies that contain words beginning with those letters.
+*** To search for a  Business that has no name, enter the street address of the  Business in the search field at the top of your screen. If your search does not locate an existing  Business click on Companies and then click on the New button.***
+
+
+  
+
+
+
+
+
+   1.  Create a New  Business  
+1. Navigate to the Companies Tab and click on either the New or New  Business button.
+
+
+  
+
+
+
+
+
+
+
+2. Enter information into all necessary fields then Click on Save   
+  
+   
+   2.  Edit an existing  Business
+1. To change or add information to a record, click on the Edit button in the upper right hand corner of your screen. Be sure to Save any changes that you make.
+
+
+  
+
+Contact
+Create/Edit a Contact Record
+1. Create a New Contact 
+1. Navigate to any  Business record and scroll down to Contacts related list and Click New.
+  
+
+2. Enter information into all necessary fields and Click on Save
+  
+
+
+
+2. Edit an existing Contact
+1. Navigate to any  Business record and scroll down to the Contacts related list click on the dropdown arrow and hit Edit
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vacancies
+Create/Edit a Vacancy
+1. Create a Vacancy
+1. Navigate to the Vacancies Tab and click on either New or New Vacancy button
+  
+
+
+
+2. Enter information into all necessary fields and Click on Save  
+   2. Edit an existing Vacancy
+   1. To change or add information to a record, click on the Edit button in the upper right hand corner of your screen. Be sure to Save any changes that you make.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Major Initiative
+Create/Edit a Major Initiative
+   1. Create a New Major Initiatives
+   1. Navigate to the Major Initiatives Tab and click on either New or New Major Initiatives button
+  
+
+   2. Enter information into all necessary fields and Click on Save
+  
+
+
+
+   2. Edit an existing Major Initiatives
+   1. To change or add information to a record, click on the Edit button in the upper right hand corner of your screen. Be sure to Save any changes that you make.
+  
+ 
+Add Major Initiative Roles to Major Initiatives
+   1. After a Major Initiative record is created, scroll down to the Major Initiative Roles related list and click New to add MI role information for the Major Initiative
+  
+
+
+
+
+
+   2. Enter information into all necessary fields and Click on Save
+  
+
+Understanding Related Lists
+Each of DWB Objects (Business, Contacts, Building, etc.) is related to each other.  Each has a different set of related lists which appear as sections of a record or detail page:
+   1. Related list will appear on the bottom of the record page and 
+   2. Related List Quick Links (will be on the top of each record page of all the objects)
+  
+
+
+
+  
+
+
+
+Reports & Dashboards
+   1. Creating Reports
+   * From the reports tab, click New Report.
+  
+
+
+
+
+
+   * Choose a report type, and then click Continue.
+   * The report type you choose determines which records are returned and which fields are available in your report.
+
+
+  
+
+
+
+   * The report opens in edit mode and shows a preview.
+   * In edit mode, add and remove fields to your report as columns, group rows and columns, filter report data, and show or hide a chart. Customize your report until it shows exactly the data that you need.
+
+
+  
+
+   * To add a column to your report,
+   1. Search a field from the Add column search bar...
+   2. Alternatively, expand the Fields panel, then drag-and-drop a field onto the Columns list or directly onto the report preview.
+   * To remove a column from your report,
+   1. From the Columns list, find the column you want to remove. Then click Remove .
+   2. Alternatively, from the preview pane, find the column you want to remove. Click  Column Actions  | Remove Column.
+   3. To remove all columns from your report, from the Columns list, click Remove All Columns .
+   4. Removing a column from your report doesn’t delete the field. If you remove a column but want it back, add it again.
+
+
+      * Click Save. If you’re creating a brand new report, give it a name. Optionally, give it a description. With access and sharing in mind, save the report in an appropriate folder.
+      * To view complete report results, click Run.
+  
+
+      * Please refer this video to build a report - http://salesforce.vidyard.com/watch/qGpi4cPjtUWQ7XV1jT6xnM
+
+
+      2. Exporting Reports
+      * From Reports, next to the report you want to export, click  Report or Dashboard Actions Menu  | Export.
+  
+
+         * Choose an Export View.
+Formatted Report exports the report as it appears in Salesforce, with the report header, groupings, and filter details. Because formatting is retained, you can't choose an encoding and the only supported formatted export file type is .XLSX.
+Details Only exports each detail row without formatting and is useful for doing further calculations in a spreadsheet.
+         * If exporting as Details Only, set an Encoding appropriate for your language and locale.
+         * If exporting as Details Only, set the Format to Excel Format .xls or Comma Delimited .csv.
+         * Click Export.
+  
+
+            * If prompted by a browser dialog, choose to save the file.
+            3. Subscribe to Reports
+            * From the Reports tab or from the report run page, click  Show More  | Subscribe.
+If you've already subscribed to a report but want to change the schedule, take the same action.
+  
+
+               * From the Edit Subscription menu, set the subscription schedule.
+For example for the weekly sales report, choose a weekly subscription with delivery Monday 8:00 AM.
+               * Optionally, add conditions.
+The conditions are evaluated when the report is run according to the schedule you set. The report is only emailed if all conditions are met.
+               * Under Send To, you are automatically selected as a recipient. To add others or remove yourself, click Edit Recipients.
+               * Select from the available entity types and start typing to see all the matching names.
+Only the users, groups, or roles with permission to access the report are shown in the list of matches.
+               * Select from the matching options and click Add to add to the list of subscribers. Add more users, groups, or roles as needed and then close the Edit Recipients window.
+               * When the subscription emails the refreshed report to each recipient, it sends to the email address set in Settings | Email | My Email Settings. If no email is set in My Email Settings, then the refreshed report is sent to the recipient’s email address set on their Salesforce User record.
+ Important 
+IMPORTANT Recipients see emailed report data as the person running the report. Consider that they may see more or less data than they normally see in Salesforce.
+                  * Under Run Report As, specify who runs the report.
+                  * Me — You run the report, and recipients see report data in the emailed report as you.
+                  * Another Person — Specify someone who has permission to run reports and who has access to the report.
+  
+
+                  * Click Save.
+                  4. Creating Dashboard
+                  * If necessary, create the source reports containing the data you want to display.
+                  * From the Dashboards tab, click New Dashboard.
+  
+
+
+
+                  * Name the dashboard. Optionally, provide a short description. Then, place the dashboard in a folder. Private Dashboards is the default folder.
+
+
+  
+
+                  * To add a component to the dashboard, click + Component.
+                  1. Choose a source report for the component, then click Select.
+                  2. Customize how the component displays data, then click Add.
+                  3. Arrange and resize the component as necessary.
+                  4. To edit an existing component, click the pencil icon ( Edit component ). To remove a component, click the X icon ( Remove component ).
+
+
+  
+
+
+
+
+
+                     * Click on the add button to add the component. It looks like below
+
+
+  
+
+                     * You can also edit it to change the component type. Click on the pencil icon to edit and change the type. Click on the update button.
+
+
+  
+
+
+
+After updating, the dashboard looks like below.
+  
+
+
+
+                     * Now click on done to save it. So in this way, we can add multiple components into a single dashboard.
+
+
+
+
+How to create “List Views”
+Create a list view to see a specific set of contacts, buildings, or other object records. For example, create a list view of Building on certain blocks or a specific street or Contacts with a specific Parent  Business, etc. You can also create views of contacts to use for mass email recipient lists.
+                     1. Click Create New View at the top of any list page or in the Views section of any tab home page.   NOTE If you don’t see Create New View, you don’t have the “Create and Customize List Views” permission. Contact your Salesforce admin to request it.
+                     2. Enter the view name. The view name is shown in the views dropdown list.
+  
+
+                     3. Enter a unique view name.
+                     4.  The unique name must be unused in both public and private list views. Private list views    are only searchable if you have access to them.
+                     5. Specify your filter criteria. If you want more filter fields, click Add Filter Logic... and then Add Row. You can have up to 10 fields in your filter criteria.
+                     6. Usually, you filter by additional fields. For example, the image below shows a list view that displays only Properties in the org whose Street name starts with “H.”
+                     7. Select the fields you want to display on the list view.
+                     8. The default fields are automatically selected. From the fields that are in your page layout, you can display up to 15 different fields in your view.
+  
+
+                     9. When you select a long text area field, the list view displays up to 255 characters.
+                     10. Click Save. The view appears in the View dropdown list so you can access it later.
+                         Here’s what your list view can look like when you’re done:
+Filter 1
+1. Use "Building Street Name" field
+2. Use "Starts with" filter (ie. Building Street name Starts with "H")
+
+
+
+
+User Management
+Onboarding New Users:
+Setup 🡪 Users 🡪 Users 🡪 New User
+                     1. Acquire new license
+                     1. Assign new user Salesforce license
+                     2. Assign new user appropriate Role
+                     3. Assign new user appropriate Profile
+  
+
+                     2. Conduct Orientation + Training
+                     1. SOP
+                     2. 1-on-1 coaching
+Off-Boarding Users:
+                     1. Reassign all workflow & cases to another active user
+                     2. Audit + deactivate any scheduled reports
+                     3. Transfer account and contact ownership to another active user
+                     4. Deactivate user
+
+
+Lightning for Outlook
+Enable and Set Up Lightning for Outlook
+
+
+1. Set up Lightning for Outlook from Salesforce
+                     * Click  https://lh4.googleusercontent.com/fwbvLUeZB5yoiLgss8ac8A05ECVJKLxN3MqlE6i8jR4oT0JuCfvOMrfE_ahr57jk6gAcnxLAjxqr8oH9eLjjNluLUa7T2zgnSovNge2PmSYK_NW8JshbW0ZqFdL0zYEUj2QPl1Y_  and select Setup.
+                     * Enter Outlook in the Quick Find box, and then select Outlook Integration and Sync.
+                     * Enable Outlook Integration and Lightning Sync
+ https://lh4.googleusercontent.com/k8jt-7ZcBqFsjMXw4QO7yPZQV2AA4NYD-t34wcxMIgwvZeEkLf3B-FokjxmoeGem47aM2cBuEe1pKs2snv1YtdQ-Qha02cGgmLmFwlNcmmQqYqb3fDy0hwmEfj3LhDV2lKgf3e_t 
+
+
+
+2. Set up Lightning for Outlook in Outlook
+                        * Before you can begin experiencing Lightning for Outlook, you have to complete these steps to connect Microsoft Outlook Web App (OWA), Outlook 2016, Outlook for Mac 2016, and Outlook 2013.
+                        1. In the Web browser, type www.outlook.office.com and provide your Microsoft Outlook credentials and log in.
+                        2. After logging in, click   https://lh4.googleusercontent.com/fwbvLUeZB5yoiLgss8ac8A05ECVJKLxN3MqlE6i8jR4oT0JuCfvOMrfE_ahr57jk6gAcnxLAjxqr8oH9eLjjNluLUa7T2zgnSovNge2PmSYK_NW8JshbW0ZqFdL0zYEUj2QPl1Y_  icon which is available on the right top corner of the screen and navigate to manage add-ins.
+
+
+ https://lh5.googleusercontent.com/Uy5LcWecRY8o3_GVjzSPU1odQRgWeDBeCCn3H8LtB26150Kn2sVDEVWcQKkcsxJiQLCpGQKkE8kV5KHMU5ESGBHbC6b5iv7OBDoH4GLSjKRXkOi51zZe0yY2CKg-ZhLBjuGMgMJf 
+
+                           * On the next screen, enter Salesforce lightning for outlook in the Search box, and then hit Turn On.
+
+
+ https://lh6.googleusercontent.com/YbADaoguTJlY8lQK1OdvXPf17Eva4FbuDuc1gxQWsKHzPfWkAFlpV1XCewne2UGy5EO7dkapCWGoncqO27mB46iSOo42Clnrsu1UcrBVyYVmDMcgu5aNppBUwlEVdL7m5bqO_lZW 
+
+
+
+                           * After adding Lightning for Outlook to the outlook account and navigating to an inbox, you will notice the Salesforce icon has been created. Click that icon; a windowpane opens on the right side of the screen.
+
+
+ https://lh6.googleusercontent.com/cV4DP72DdqVAw4JvY0SM1XKAzmUhOLbO2ZKkTF18I6pTLaSdR0qhPMCw1eWJxLuPQjmFMFC842lxHV3KE6AS7ViUEy876cJp6f_FScbFKaYCTePW0zdTScV47lVLRc4Jjng-YYeR 
+
+
+
+                           * Enter your Salesforce credentials and allow access to authenticate your Outlook account and Salesforce account. 
+
+
+  https://lh4.googleusercontent.com/fO9x6slzac1l9eGCHWXhj6WmXTwlI0_Z9aCHoYXiBc_2-P_KjfCrwVWcPIQ-KJKAOOnuqRXJ7RcI--utNyyiaTt4D61UZH17sMtYEOkFitjC1aakcEIM1qE8Zpd59kHYdmatE9-W 
+
+
+                           * After we establish the connection, we can see our Salesforce account data on the pane displayed to the right of the Inbox.
+
+
+          https://lh6.googleusercontent.com/JvNmR9AJ52Jhu9qewBbDdMp0wHWvq71tH7RapOSfCsA8Jl0jCxkPjimLJbFKrU9OJ85v3hl_H14ZqigvVzmMcEYW0hy87rJc5c37uk2TG_t8P-7jyhEKX4Dmn8e9FpF-yykMSGKM
